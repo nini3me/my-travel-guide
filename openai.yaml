@@ -1,0 +1,13 @@
+interface:
+  display_name: my travel guide
+  short_description: 我的旅游攻略skill。根据目的地、日期、人数、出发地、返程地、住宿、交通、节奏和预算，研究核实信息后，使用固定版式生成中文慢旅行攻略
+    HTML。默认紫色主题，可选绿色、米色、蓝色、粉色、灰色。除主题色、封面城市意象和旅行内容外，不得擅自改变固定结构与版式。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
